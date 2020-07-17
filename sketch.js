@@ -160,6 +160,7 @@ function mousePressed(){
        restart.y-mouseY<=restart.height/2){
     gameState="start";
     score=0;
+    ball.x=0;
     obstacle.x=-100;
     }
 }
